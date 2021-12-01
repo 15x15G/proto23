@@ -9845,7 +9845,7 @@ dom.sl_h.addEventListener('click',()=>{
 
 dom.vrs = addElement(dom.sl,'div',null,'sl'); dom.vrs.style.position='fixed';dom.vrs.style.width='auto';dom.vrs.innerHTML='v'+global.ver;
 dom.vrs.style.right='105px';dom.vrs.style.bottom='1px'; dom.vrs.style.color='black';dom.vrs.style.textDecoration='underline'
-dom.vrs.addEventListener('click',function(){window.open('/changelog','_blank')}); dom.vrs.href='changelog'; 
+dom.vrs.addEventListener('click',function(){window.open('changelog.html','_blank')}); dom.vrs.href='changelog.html'; 
 dom.sl_kill = addElement(dom.sl,'span',null,'sl'); dom.sl_kill.style.position='fixed';dom.sl_kill.style.width='auto';dom.sl_kill.innerHTML='delete the save';
 dom.sl_kill.style.right='5px';dom.sl_kill.style.bottom='1px';
 dom.sl_kill.addEventListener('click', ()=>{localStorage.clear();msg('Save deleted','')});
