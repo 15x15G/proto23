@@ -256,7 +256,7 @@ var cnItems = {
     "Village Center, Child Trader": "村中心，儿童商人",
     "Training dummy": "训练假人",
     "Training dummy ->": "训练假人 ->",
-    "You dry up": "你太渴了",
+    "You dry up": "你身上干了",
     "You passed out...": "你昏过去了...",
     "legs": "腿部",
     "\"Sleeping\"": "\“睡眠\”",
