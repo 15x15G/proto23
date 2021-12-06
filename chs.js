@@ -1202,7 +1202,7 @@ var cnItems = {
     "Items picked up": "捡到的物品",
     "J o u r n a l": "日记",
     "Jobs completed": "作业完成",
-    "journal": "杂志",
+    "journal": "日记",
     "Last cause of casualty": "最后的伤亡原因",
     "lvl:19 'Jogger'": "lvl:19 '慢跑者'",
     "Marked Wakizashi": "标记胁差",
