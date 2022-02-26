@@ -947,7 +947,7 @@ var cnItems = {
     "3%, Pain Resistance EXP Gain +5%, New Title": "3%，抗痛经验获得 +5%，新称号",
     "5%, STR +1, Drinking EXP Gain +10%, New Title": "5%, 力量 +1, 饮酒经验增加 +10%, 新称号",
     "5%, Toughness EXP Gain +10%": "5%, 坚韧 经验 增益 +10%",
-    "Toppling objects": "倾倒对象",
+    "Toppling objects": "打翻东西",
     "Tricolored": "三色",
     "You feel safe. You can rest here. Your cat comes out to greet you!": "你感到安全。 你可以在这里休息。 你的猫出来迎接你！",
     "Your best feline friend": "你最好的猫科动物朋友",
@@ -1693,7 +1693,7 @@ var cnItems = {
 
     "\"Nooooo it's creepy!!\"":"\"不不不不，太怪异了！\"",
     "'Air Absorption'": "'空气吸收'",
-    "\"<= Maybe not\"": "\"<= 也许不\"",
+    "\"<= Maybe not\"": "\"<= 不了\"",
     "\"Alright...\"": "\"好吧...\"",
     "\"Bamboo Training Sword\"": "\"竹练剑\"",
     "\"Bone Doll\"": "\"骨娃娃\"",
@@ -1712,9 +1712,12 @@ var cnItems = {
     "Area: Western forest hidden area / ": "区域：西部森林隐藏区",
     "Attic spider ->": "阁楼蜘蛛 ->",
     "Attic spider -> x2(": "阁楼蜘蛛 -> x2(",
+    "Attic spider -> x1(": "阁楼蜘蛛 -> x1(",
     "Attic spider died": "阁楼蜘蛛死了",
     "Bat ->": "蝙蝠 ->",
+    "Bat missed": "蝙蝠失误了",
     "Bat -> x2(": "蝙蝠 -> x2(",
+    "Bat -> x1(": "蝙蝠 -> x1(",
     "Bat died": "蝙蝠死了",
     "bites you":"咬伤了你",
     "Food poisoning":"食物中毒",
@@ -1733,6 +1736,37 @@ var cnItems = {
     "You feel bad inside":"你感到不舒服",
     "You have already explored this area": "您已经探索过该区域",
     "You scavenged some goods from this forest area": "你从这片森林里捡到了一些货物",
+    "\"Adhesive Bandage\"": "\"粘性绷带\"",
+    "\"Mortar and Pestle\"": "\"研钵和研杵\"",
+    "It didn't turn out very well...": "结果不是很好...",
+    "\'Poison Resistance\'": "\'毒抗\'",
+    "You touched cobweb and felt gross. You can't see anything in this darkness, it'll be better if you find a lightsource": "你摸到了蜘蛛网，感觉很恶心。 在这黑暗中你什么都看不见，如果你能找到光源就好了",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "":"",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+
 }
 
 
@@ -1959,7 +1993,8 @@ var cnExcludeWhole = [
     /^([\d\.,]+)\/([\d\.,]+)\/([\d\.,]+) ([\d\.,]+):([\d\.,]+)  $/,
     /^([\d\.,]+)$/,
     /^([\d\.]+)e([\d\.,]+)$/,
-    /^[\u4E00-\u9FA5]+$/
+    /^[\u4E00-\u9FA5]+/,
+    /^[●\+\d]+$/
 ];
 var cnExcludePostfix = [
 ]
@@ -1971,7 +2006,7 @@ var cnExcludePostfix = [
 //原样输出的字段：(.+)
 //换行加空格：\n(.+)
 var cnRegReplace = new Map([
-    [/^\"Pet\s(.+)\"$/, '\"拍拍 $1\"']
+    [/^\"Pet\s(.+)\"$/, '\"拍拍 $1\"'],
     [/^lvl:(.+) \'Beast (.+)\'$/, '等级:$1 \'野兽 $2\''],
     [/^lvl:(.+) \'Evil (.+)\'$/, '等级:$1 \'邪恶 $2\''],
     [/^lvl:(.+) \'Glass Bones\'$/, '等级:$1 \'玻璃骨头\''],
