@@ -1703,7 +1703,7 @@ var cnItems = {
     'LAST, AUTO, INCOMPLETE': '最后，自动，不完整',
     'NONE': '无',
     'P: Reset for': 'P: 重置获得',
-    "Nooooo it's creepy!!":"不不不不，太怪异了！",
+    "Nooooo it's creepy!!": "不不不不，太怪异了！",
     "'Air Absorption'": "'空气吸收'",
     "<= Maybe not": "<= 不了",
     "Alright...": "好吧...",
@@ -1721,21 +1721,21 @@ var cnItems = {
     "Straw Kasa": "草帽",
     "Tunic": "束腰外衣",
     "Wood Effigy": "木雕",
-    "bites you":"咬伤了你",
-    "Food poisoning":"食物中毒",
+    "bites you": "咬伤了你",
+    "Food poisoning": "食物中毒",
     "From eating something bad": "因为吃了不好的东西",
     "Lookout Guard: Here for work? You won't have to do much, just stand there near the gate and look intimidating. You're not doing any fighting if someone dangerous comes around, that would be dealth by Us, your militia. Your shift ends at 8PM, sign up now and go": "看守：找工作的？ 你不需要做什么，只需要凶神恶煞地站在门口附近。 如果有危险的人出现，你不需要战斗，这将由我们这些民兵来处理。 您的工作在晚上 8 点结束，报名开始吧",
-    "quest accepted":"接受了任务",
-    "Quest completed":"完成了任务",
-    "Really deconstruct?":"确认分解吗？",
-    "Repeatable":"可重复",
+    "quest accepted": "接受了任务",
+    "Quest completed": "完成了任务",
+    "Really deconstruct?": "确认分解吗？",
+    "Repeatable": "可重复",
     "Something ambushes you!": "有东西伏击了你！",
     "Waning Crescent Moon": "残月",
-    "Watching others":"观察人类",
+    "Watching others": "观察人类",
     "Western Woods, Round Branches": "西部森林，圆枝",
     "You are currently wearing": "您目前穿着",
     "You are currently wearing ": "您目前穿着 ",
-    "You feel bad inside":"你感到不舒服",
+    "You feel bad inside": "你感到不舒服",
     "You have already explored this area": "您已经探索过该区域",
     "You scavenged some goods from this forest area": "你从这片森林里捡到了一些货物",
     "Adhesive Bandage": "粘性绷带",
@@ -2030,8 +2030,7 @@ var cnExcludeWhole = [
     /^\[\w+\]$/,
     /^\S{1,3}$/,
 ];
-var cnExcludePostfix = [
-]
+var cnExcludePostfix = []
 
 //正则替换，带数字的固定格式句子
 //纯数字：(\d+)
@@ -2114,11 +2113,11 @@ var cnRegReplace = new Map([
     [/^You have (.+) points$/, '你有 $1 点数'],
     [/^\"Notice \#([\d\.]+)\"$/, '\"注意 \#$1\"'],
     [/^Next at (.+) points$/, '下一个在 $1 点数'],
-	[/^lvl ([\d\.]+)$/, '等级 $1'],
-	[/^([\d\.]+), EXP Gain \+([\d\.]+)\%$/, '$1、经验增益\+$2\%'],
-	[/^([\d\.]+), EXP Gain \+([\d\.]+)\%, New Title$/, '$1，经验增益\+$2\%, 新称号'],
-	[/^([\d\.]+), SAT \+([\d\.]+), New Title$/, '$1，能量 \+$2, 新称号'],
-	[/^([\d\.]+)\/sec$/, '$1\/秒'],
+    [/^lvl ([\d\.]+)$/, '等级 $1'],
+    [/^([\d\.]+), EXP Gain \+([\d\.]+)\%$/, '$1、经验增益\+$2\%'],
+    [/^([\d\.]+), EXP Gain \+([\d\.]+)\%, New Title$/, '$1，经验增益\+$2\%, 新称号'],
+    [/^([\d\.]+), SAT \+([\d\.]+), New Title$/, '$1，能量 \+$2, 新称号'],
+    [/^([\d\.]+)\/sec$/, '$1\/秒'],
     [/^requires ([\d\.]+) more research points$/, '需要$1个研究点'],
     [/^(\d+), HP \+(\d+)$/, '$1, 生命值 \+$2'],
     [/^(\d+) Royal points$/, '$1 皇家点数'],
@@ -2128,4 +2127,3 @@ var cnRegReplace = new Map([
     [/^(\d+) Throwing Damage$/, "投掷伤害$1"],
 
 ]);
-
