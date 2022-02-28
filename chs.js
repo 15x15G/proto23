@@ -621,7 +621,7 @@ var cnItems = {
     "Barely reached the standard, maybe you should keep it for longer": "勉强达到标准，也许你应该保持更长时间",
     "Cheap massproduced tableware carved from wood. Kind of a pain to wash": "廉价的大量生产的木质餐具。 洗起来有点痛",
     "Cheap Cloth": "廉价布料",
-    "\"Cheap Cloth\"": "\"廉价布料\"",
+
     "General Store": "综合商店",
     "Gluttony EXP gain +5": "饮食经验增益 +5",
     "Marketplace, Stalls": "市场, 摊位",
@@ -1797,6 +1797,7 @@ var cnItems = {
 
 //需处理的前缀
 var cnPrefix = {
+    "\"": "“",
     "(-": "(-",
     "(+": "(+",
     "(": "(",
@@ -1957,6 +1958,7 @@ var cnPrefix = {
 
 //需处理的后缀
 var cnPostfix = {
+    "\"": "”",
     ":": "：",
     "：": "：",
     ": ": "： ",
