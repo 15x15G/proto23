@@ -579,6 +579,7 @@ var cnItems = {
     "<= Walk away": "<= 离开",
     "General Store": "综合商店",
     "General Store ": "综合商店 ",
+    "Grocery Shop": "杂货店",
     "Grocery Shop ": "杂货店 ",
     "Nervous Guy": "紧张的家伙",
     "Nervous Guy ": "紧张的家伙 ",
@@ -594,7 +595,6 @@ var cnItems = {
     "Cheap Cloth": "廉价布料",
     "Gluttony EXP gain +5": "饮食经验增益 +5",
     "Marketplace, Stalls": "市场, 摊位",
-    "Grocery Shop": "杂货店",
     "Old Lady: Freshest vegetables for the lowest price!": "老太太：最新鲜的蔬菜，最低的价格！",
     "Old Lady: These are very fresh, buy some!": "老太太：这些很新鲜，买一些吧！",
     "Old Lady: Try a few and you'll want even more!": "老太太：尝尝看，你会想要更多！",
@@ -1623,8 +1623,6 @@ var cnPrefix = {
     "-->": "-->",
     "\"--> ": "“--> ",
     "\"=>": "“=>",
-    " =>\"": " =>”",
-    " =>": " =>",
     "=> ": "=> ",
     "(-": "(-",
     "(+": "(+",
@@ -1788,6 +1786,9 @@ var cnPrefix = {
 
 //需处理的后缀
 var cnPostfix = {
+    " =>\"": " =>”",
+    " =>": " =>",
+
     "\"": "”",
     "\" ": "” ",
     "'": "’",
@@ -1876,7 +1877,7 @@ var cnExcludePostfix = []
 //原样输出的字段：(.+)
 //换行加空格：\n(.+)
 var cnRegReplace = new Map([
-    [/^\"Pet\s(.+)\"$/, '\"拍拍 $1\"'],
+    [/^Pet\s(.+)$/, '拍拍 $1'],
     [/^lvl:(.+) \'Beast (.+)/, '等级:$1 \'野兽 $2'],
     [/^lvl:(.+) \'Evil (.+)/, '等级:$1 \'邪恶 $2'],
     [/^lvl:(.+) \'Glass Bones/, '等级:$1 \'玻璃骨头'],
