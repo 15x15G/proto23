@@ -1830,7 +1830,8 @@ var cnPostfix = {
     "  ": "",
     " ": " ",
     "\n": "",
-    "OFF": "关闭",
+    "OFF": "关",
+    "ON": "开",
     " Items returned back to dojo": " 物品退回道场",
     "Buying price": "购买价格",
     "Reputation": "名声",
@@ -1878,6 +1879,8 @@ var cnExcludeWhole = [
     /^\-\-G$/,
     /^\-G$/,
     /^\G+$/,
+    /^:3$/,
+    /^'w'$/,
 ];
 var cnExcludePostfix = []
 
