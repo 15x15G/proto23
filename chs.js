@@ -1614,6 +1614,17 @@ var cnItems = {
     "You pick a coin from under the counter": "你从柜台下面捡起一枚硬币",
     "You snatch a coin while no one is looking": "你在没人留意的时候抓了一枚硬币",
     "Mhm...": "呼...",
+    "Phew, I needed that!": "唷，我要！",
+    "Instructor: Time to start getting serious! Keep working hard!": "教官：是时候更加严格了！ 继续努力！",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
 }
 
 
@@ -1860,7 +1871,7 @@ var cnExcludeWhole = [
     /^(\d+):(\d+)$/,
     /^(\d+)\w$/,
     /^[\u4E00-\u9FA5]+/,
-    /^[\s\"]+[\u4E00-\u9FA5]+/,
+    /^[\s\“]+[\u4E00-\u9FA5]+/,
     /^[●\+\.\/K\d%]+\s*$/,
     /^\S$/,
     /^\W+$/,
@@ -1878,6 +1889,7 @@ var cnExcludePostfix = []
 //换行加空格：\n(.+)
 var cnRegReplace = new Map([
     [/^Pet\s(.+)$/, '拍拍 $1'],
+    [/Level (\d+) reward/, '$1级奖励'],
     [/^lvl:(.+) \'Beast (.+)/, '等级:$1 \'野兽 $2'],
     [/^lvl:(.+) \'Evil (.+)/, '等级:$1 \'邪恶 $2'],
     [/^lvl:(.+) \'Glass Bones/, '等级:$1 \'玻璃骨头'],
