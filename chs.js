@@ -1796,6 +1796,8 @@ var cnPrefix = {
     "Throwing lvl: ": "投掷等级: ",
     "Temperance lvl: ": "节制: ",
     "Really destroy": "确定丢弃",
+    "by Type": "按类型排序",
+    "by Amount": "按数量排序",
     "by ": " 被",
     "You hit ": "你对",
     "": "",
