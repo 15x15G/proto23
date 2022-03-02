@@ -1742,7 +1742,7 @@ var cnPrefix = {
     "Meditation lvl: ": "冥想等级：",
     "Pain Resistance lvl: ": "抗痛等级：",
     "SAT +": "能量 +",
-    "Perk lvl ": "乐观等级 ",
+    "Perk lvl ": "特效等级 ",
     "SPD +": "速度 +",
     "Death lvl: ": "死亡等级: ",
     "Knife M lvl: ": "刀法精通等级：",
