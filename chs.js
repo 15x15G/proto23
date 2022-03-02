@@ -1646,6 +1646,19 @@ var cnItems = {
     "Last Quarter Moon": "下弦月",
     "Waning Crescent Moon": "残月",
     "Yawn...": "打哈欠...",
+    "You hear a piercing wail": "你听到刺耳的哀号",
+    "What is that fire in your eyes? Can it be you are done already?": "你眼里的火是什么？ 难道你已经完成了吗？",
+    "Report the sounds you heard": "报告你听到的声音",
+    "That isn't good, sounds like trouble... Might have been the leader of the pack, furious about death of his underlings. This matter will need to be resolved quickly. As for you, go and have a good hard earned rest, you have done very well. Expect to be contacted later for further monster subjugation": "不是好事，听起来会是个麻烦……可能是这群狼的领袖，对他部下的死感到愤怒。 这件事需要尽快解决。 至于你，好好休息，你做得很好。 等待之后的联系以进一步驱赶怪物",
+    "Accept the reward": "接受奖励",
+    "nobody's here": "这里没有人",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
 }
 
 
