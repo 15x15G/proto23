@@ -1,0 +1,23 @@
+name: timer
+on: 
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+jobs:
+  update:
+      runs-on: ubuntu-18.04
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v2.3.3
+          with:
+            ref: 'origin'
+        - name: Download files
+          run: |
+            curl https://proto23.herokuapp.com/ -o index.html
+            curl https://proto23.herokuapp.com/ctst.png -o ctst.png
+            curl https://proto23.herokuapp.com/changelog/ -o changelog.html
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git config --global user.name "github-actions[bot]"
+            git add -A
+            git diff-index --quiet HEAD || (git commit -m 'update' && git push origin origin)
+            
