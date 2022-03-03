@@ -13,9 +13,9 @@ jobs:
             ref: 'originwebsite'
         - name: Download files
           run: |
-            curl https://proto23.herokuapp.com/ -o index.html --connect-timeout 20 --retry 10 --retry-delay 10
-            curl https://proto23.herokuapp.com/ctst.png -o ctst.png --connect-timeout 20 --retry 10 --retry-delay 10
-            curl https://proto23.herokuapp.com/changelog/ -o changelog.html --connect-timeout 20 --retry 10 --retry-delay 10
+            curl https://proto23.herokuapp.com/ -s -S -o index.html --connect-timeout 20 --retry 10 --retry-delay 10
+            curl https://proto23.herokuapp.com/ctst.png -s -S -o ctst.png --connect-timeout 20 --retry 10 --retry-delay 10
+            curl https://proto23.herokuapp.com/changelog/ -s -S -o changelog.html --connect-timeout 20 --retry 10 --retry-delay 10
             git config --global user.email "github-actions[bot]@users.noreply.github.com"
             git config --global user.name "github-actions[bot]"
             git add -A
